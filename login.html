@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Billing System</title>
+    <style>
+      body {
+        background-color: #4470cf;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+      h1 {
+        color: #f8f6f6;
+      }
+      #form {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 5px solid #333;
+        background-color: #85a9f7;
+      }
+      label {
+        display: block;
+        margin-bottom: 10px;
+        color: #000000;
+      }
+    </style>
+</head>
+<body>
+
+    <h1>Electricity Billing System</h1>
+    <h2>Login</h2>
+    <form action="login.php" method="post">
+        <label for="login_username">Username:</label>
+        <input type="text" id="login_username" name="username" required>
+        <br><br>
+        <label for="login_password">Password:</label>
+        <input type="password" id="login_password" name="password" required>
+        <br><br>
+        <input type="submit" value="Login">
+    </form>
+
+</body>
+</html>
